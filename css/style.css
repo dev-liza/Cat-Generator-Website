@@ -1,0 +1,119 @@
+
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.btn{
+    width: 240px;
+    height:30px;
+   font-style: normal;
+   font-size: 20px; 
+   text-align: center;
+   justify-content: center;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    
+  }
+
+.change{
+  text-align: justify;
+  justify-content: center;
+}
+/* .content {
+    position: relative;
+    z-index: 1;
+  } */
+
+ .animated-text {
+  font-size: 4em;
+    text-align: center;
+    /* text-decoration: rgb(170, 66, 66); */
+    color:black;
+    font-weight: bolder;
+    animation: slideIn 2s ease-in-out infinite alternate;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  @keyframes slideIn {
+    from {
+      transform: translateY(-50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  /* Set a responsive base font size using a media query */
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+
+/* Set a responsive font size for paragraph text using a media query */
+@media screen and (max-width: 400px) {
+  p {
+    font-size: 0.8rem;
+  }
+}
+#bg-video {
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+  .btn{
+    border-radius: 120px;
+    border-color: black;
+    align-content: center;
+    justify-content: center; 
+    display: flex;
+    text-align: center;  
+      align-items: center;  
+     margin: 0 auto;
+   
+    }
+
+  
+  .btn:hover{
+   color:red;
+  }
+
+ .set{
+  margin-top: 500px; 
+  align-items: center;
+   padding: 20px;
+ }
+ .center{
+  text-align: center;
+ }
+ .copy{
+  text-align: center;
+ }
+  footer{
+      background: black;
+      padding: 4px 10px;
+      margin-top: 500px;
+  }
+
